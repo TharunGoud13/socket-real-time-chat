@@ -11,7 +11,7 @@ export default function Home() {
   const [roomId, setroomId] = useState("");
 
   var socket: any;
-  socket = io("http://localhost:3003");
+  socket = io("https://socket-real-time-chat.vercel.app");
   
 
   const handleJoin = () => {
