@@ -32,7 +32,7 @@ io.on('connection', (socket) => {
   })
 })
 
-const PORT = process.env.PORT || 3003
+const PORT = process.env.PORT || "https://api.render.com/deploy/srv-cqfpc1hu0jms73866j30?key=msrn2Xr_sq0"
 httpServer.listen(PORT, () => {
   console.log(`Socket.io server is running on port ${PORT}`)
 })
